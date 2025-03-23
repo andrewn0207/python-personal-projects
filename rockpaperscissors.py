@@ -32,13 +32,11 @@ def play_game():
             print("You won the game")
         else:
             print("The computer won the game!")
-
-
-        # Start new
+# Start new
 while True:
     play_game()  # Run the game
     user_choice = input("Do you want to play again? (y/n): ").lower()
-    if user_choice != 'y': # != means "not equal to", so we don't have to do == y: then an else statement
+    if user_choice != 'y': 
             print("Thanks for playing!")
             break
     else:
